@@ -33,3 +33,22 @@ f = False
 print("Operador 'and': ", v and f)
 print("Operador 'or': ", v or f)
 print("Operador 'and not': ", v and not f)
+
+#OPERADORES DE ATRIBUIÇÃO
+print("\n-------------------------\nOPERADORES DE ATRIBUIÇÃO:\n-------------------------\n")
+print("Operador 'x = y'")
+x = y
+print("x : ", x)
+print("y : ", y)
+print("Operador 'x += y'")
+x += y
+print("x : ", x)
+print("y : ", y)
+print("Operador 'x -= y'")
+x -= y
+print("x : ", x)
+print("y : ", y)
+print("Operador 'x *= y'")
+x *= y
+print("x : ", x)
+print("y : ", y)
