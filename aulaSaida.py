@@ -18,3 +18,4 @@ arquivo = open("Arquivo.txt", "a")
 print("NOSSA SEGUNDA LINHA SALVA", file=arquivo)
 arquivo.close()
 '''
+
