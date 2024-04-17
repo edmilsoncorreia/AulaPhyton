@@ -14,6 +14,7 @@ Se der certo executa a conta.
 
 try:
     num1 = int(input("Digite o primeiro número: ")) # testa a conversão
+
     num2 = int(input("Digite o segundo número: "))
 except:
     print("Você precisa digitar números inteiros")
