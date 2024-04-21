@@ -62,3 +62,18 @@ def multiplicaNumeros(*varArgs):
     return total
 
 print(multiplicaNumeros(1,2,3,4,5))
+
+print("\n")
+
+print("EXPRESSÕES LAMBDA")
+f = lambda x,y:x*y
+print( f(2,4))
+
+print('\n')
+
+print("DOCUMENTANDO FUNÇÕES")
+def somaTres(x):
+    '''Soma 3 a variável passada como entrada'''
+    x += 3
+
+print(somaTres.__doc__)
